@@ -1,0 +1,10 @@
+<main>
+</main>
+
+<block name=class file=true>
+     object ${c} {
+     def main(args: Array[String]): Unit = {
+      println("${p0}")
+    }
+  }
+</block>

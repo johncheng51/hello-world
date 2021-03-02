@@ -1,0 +1,80 @@
+<main>
+    list =self.${n}=${n}
+    lista=self.${n}
+    def  =def ${n}(self, ${n1}):${mark}
+    print=print("call ${n} method")
+  forlist=#####for ${n} in ${n}s:##R##print(${n})
+    while=#####while ${n} ${n1}  ${n2}:##R##print(${n})##R##${n}+=1
+    if   =if ${n} ${n1} ${n2} == 0:##R##print("${n}")##R##else:##R##print("${n}")
+  readfile=#####with open('${n}') as file:##R##lines = file.readlines()##R##for line in lines:##R##print(line.rstrip()) 
+  writefile=#####with open('${n}', 'w') as f:##R##f.write("I love programming!\n")##R##f.write("I love creating new games.\n")
+    forhash=#####for name in ${n}.keys():##R##print(name + ' loves a number')
+  
+</main>
+
+<block name=class file=true>
+class ${c}():
+     def __init__(self, ${p}):
+###    list###
+###    lista###
+</block>
+
+<block name=method pair=true>
+###  def###
+</block>
+
+<block name=q0 file=true>
+prompt  = "\nPlease tell me a city you have visited:"
+prompt += "\n(Enter 'quit' when you are finished.) "
+while True:
+    city = input(prompt)
+    if city == 'quit':
+        break
+    else:
+        print(f"I'd love to go to  {city.title()} !")
+</block>
+
+<block name=func file=true>
+def ${c}(${p}):
+    if ${p1}:
+        full_name = ${p0} + ' ' +  ${p1} + ' ' + ${p2}
+    else:
+        full_name = ${p0} + ' ' + ${p2}
+    return full_name.title()
+</block>
+
+<block name=testFunc file=true>
+ from ${p0} import ${p0}
+ print("Enter 'q' at any time to quit.")
+ while True:
+    first = input("\nPlease give me a first name: ")
+    if first == 'q':
+        break
+        
+    last = input("Please give me a last name: ")
+    if last == 'q':
+        break
+        
+    formatted_name = ${p0}(first, last)
+    print("\tNeatly formatted name: " + formatted_name + '.')
+</block>
+
+<block name=extend file=true>
+from ${ls} import ${s}
+class ${c}(${s}):
+      def __init__(self, ${p}):
+        super().__init__(${p})
+ ###    lista###
+</block>
+
+<block name=try0 file=true>
+import json
+try:
+ with open(${p0}) as file:
+ numbers = json.load(file)
+except FileNotFoundError:
+ msg = "Can’t find {0}.".format(${p0})
+ print(msg)
+else:
+ print(numbers)
+</block>

@@ -1,0 +1,11 @@
+<main action=Spring class=basic>
+  prjFolder=C:\myprj
+  prjName  =springDemo1
+  port     =8080
+  pomName  =Spring-Demo
+  pomVersion=0.0.1
+  appTitle  ="=  Assistant micro service                                 ="
+  swaggerTitle=ASSISTANT  DEMO
+  userName    =John Cheng
+  database    =Test
+</main>
