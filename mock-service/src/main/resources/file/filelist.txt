@@ -1,6 +1,0 @@
-address
-all
-course
-dept
-product
-stock

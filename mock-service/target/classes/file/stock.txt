@@ -1,7 +1,0 @@
-$$_stockcode
-    A000,B000,C000,D000
-__end
-
-$$_stockname
-    IBM,APPLE,GOOGLE,YAHOO
-__end
