@@ -1,5 +1,0 @@
-<app folder="C:\myprj\springDemo\src\main\java">
-  <modelproc package='com.jm'>
-      user:hibernateanno^com.jm.domain,javabean^com.jm.model
-  </modelproc>
-</app>

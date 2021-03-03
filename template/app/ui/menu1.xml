@@ -1,9 +1,0 @@
-  <menu a=single>
-    Change Password,changePwd.jsp^
-    Add  Address,addAddress.jsp^
-    Edit Parameters,editParam.jsp^
-    RestFul Console,restConsole.jsp
-   </menu>
-
-
-
