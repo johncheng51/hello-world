@@ -1,1 +1,0 @@
-java -jar target/ADP-JPA-H2-0.0.1-SNAPSHOT.jar
