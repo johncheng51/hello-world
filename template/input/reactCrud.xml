@@ -1,0 +1,39 @@
+<main action=react class=crud>
+  prjFolder=C:\jhipster\react\src\main
+  prjName  =webapp
+   comp     =anotherAddress
+  lcomp     =anotheraddress
+  ucomp     =AnotherAddress
+</main>
+
+<module file=app\shared\layout\menus\entities.tsx>
+  <MenuItem icon="asterisk" to="/${comp}">
+      ${ucomp}
+  </MenuItem>
+  {/*${ucomp}${extra}*/}
+</module>
+
+<module file=app\entities\index.tsx>
+ <ErrorBoundaryRoute path={`@@{match.url}${comp}`} component={${ucomp}} />
+ {/*${ucomp}${extra}*/}
+</module>
+
+<module file=app\entities\index.tsx type=import>
+ import ${ucomp} from './${comp}';
+ /*${ucomp}${extra}*/
+</module>
+
+<module file=app\shared\reducers\index.ts type=import>
+ import ${comp},{ ${ucomp}State } from 'app/entities/${comp}/${comp}.reducer';
+ /*${ucomp}${extra}*/
+</module>
+
+<module file=app\shared\reducers\index.ts type=import extra=1>
+ readonly ${comp}: ${ucomp}State;
+ /*${ucomp}${extra}*/
+</module>
+
+<module file=app\shared\reducers\index.ts type=import extra=2>
+ ${comp},
+ /*${ucomp}${extra}*/
+</module>

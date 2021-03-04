@@ -1,0 +1,20 @@
+ folder C:/react/todo/src
+ file TodoBanner1
+ //set c1 App c index
+ //makeClass index
+ // set c App
+ // doImport TodoBanner TodoCreator TodoRow VisibilityControl
+ // data data0
+ // makeClass class
+ set c TodoBanner1 c1 blank
+ makeClass eclass
+ setp name tasks done
+ makeMethod titleHtml 
+ set c TodoCreator1 c1 newItemText
+ makeClass eclass
+ setp updateNewTextValue createNewTodo newItemText
+ makeMethod createHtml 
+ line create1
+ line create2
+
+ 

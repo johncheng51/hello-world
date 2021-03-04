@@ -1,0 +1,16 @@
+ folder C:/angular2/sportsAdmin/src/app
+ //set c auth_guard1 pack admin a AuthService u /admin/auth
+ //makeClass authGuard
+ 
+ //set c product_model pack model
+ //setList var0 vallist1 id:n name category description price:n
+ //makeClass model
+
+ set a StoreFirstGuard c admin_module
+ addGroup router0 store StoreComponent
+ addGroup router0 cart  CartDetailComponent
+ route router store
+ doImport import store_module.store store_component.store checkout_component.store cartDetail_component.store storeFirst_guard
+ set c app_module1
+ setParam vallist vallist1 StoreComponent
+ makeClass basicModule 

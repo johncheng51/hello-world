@@ -1,0 +1,33 @@
+ folder C:/angular2/sportsStore/src/app
+ //doImport import store_module.store
+ //set c app_module1
+ //setParam vallist vallist1 StoreModule
+ //makeClass basicModule
+
+ //doImport import product_repository static_datasource
+ //set c model_module pack model
+ //setParam vallist vallist1 ProductRepository StaticDataSource
+ //makeClass simpleModule
+
+ //doImport import model_module.1.model store_component counter_directive
+ //set c store_module1 pack store
+ //setParam vallist vallist1 ModelModule
+ //setParam vallist vallist2 StoreComponent CounterDirective
+ //setParam vallist vallist3 StoreComponent
+ //makeClass branchModule
+
+ //set c counter_directive1 pack store p0 counterOf
+ //makeClass directive
+  set c store_component1 pack store s store label SPORTS_STORE
+  doImport import product_model.1.model product_repository.1.model
+  setList  vallists vallist1 selectedCategory:s:=null productsPerPage:n:=4 selectedPage:n:=1
+  setParam vallistc vallist2 productRepository
+  makeClass component1
+
+  makeClass hcontainer 
+  addGroup hleft
+  saveGroup
+
+ 
+
+ 

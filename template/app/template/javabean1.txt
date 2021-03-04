@@ -1,0 +1,26 @@
+package ${package};
+
+import java.util.*;
+import com.jm.mock.MockModel;
+import java.io.Serializable;
+
+public class ${class} extends MockModel implements Serializable{
+<#list fields as field>
+  private ${field.type} ${field.name};
+</#list>
+
+
+<#list fields as field>
+ public ${field.type} get${field.cname}(){
+ return this.${field.name};
+ }
+
+</#list>
+
+<#list fields as field>
+ public void set${field.cname}(${field.type} ${field.name}) {
+ this.${field.name}=${field.name};
+ }
+</#list>
+}
+

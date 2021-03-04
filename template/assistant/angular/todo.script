@@ -1,0 +1,5 @@
+ folder C:/angular2/todo/src/app
+ set c MyTask c1 MyItem
+ makeClass paraModel
+ set c app.module
+ makeClass module 

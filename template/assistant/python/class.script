@@ -1,0 +1,6 @@
+ folder C:/myPython/chapter_09
+ setattr manufacturer TOYADA model Camry  year 1986 
+ createClass Car manufacturer model year
+ method price car  pay amount
+
+

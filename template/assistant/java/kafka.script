@@ -1,0 +1,6 @@
+ folder C:/myprj/04-word-count/src/main/java/com/jm
+ set c WordCount
+ javaClass  producer
+ javaClass  comsumer 
+ 
+

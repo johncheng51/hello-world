@@ -1,0 +1,21 @@
+Available commands for search
+===========================================================================
+help: print all available command
+folder ?            ex: folder C:\assistPrj\template\app\ui
+file   ?            ex: file   changePwd.jsp
+fullpath ?          ex: fullpath C:\assistPrj\template\app\ui\changePwd.jsp
+use ?               ex: use java
+showLines           show all lines 
+showBlocks          show all blocks
+simple ? ? ? ?      ex: simple mlist Person myList myMethod
+print  ?            ex: print  mlist
+showParam 
+setprop ? ? ? ?     ex: setProp t Company 
+setattr ? ? ? ?     ex: setattr userName johntc00 firstName John lastName Cheng
+section ?           ex: section 1
+run ? ?             ex: run  react class(class.script under react)
+set var  ?          ex: set  c home( set c=home)
+createModel ? ?     ex: createModel com.jm.model javabean
+javaClass  template ?    ex: javaClass  service  100 firstName
+
+===========================================================================

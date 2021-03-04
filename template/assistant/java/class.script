@@ -1,0 +1,13 @@
+ folder C:/myprj/mock-service/src/main/java/com/jm
+ set c home
+ createModel com.jm.model javabean
+ makeClass  service 100 firstName
+ makeClass  controller 
+ makeMethod getCount findAll().size()
+ makeMethod getAll 
+ makeMethod search 
+ makeMethod create
+ makeMethod save
+ makeMethod get
+ makeMethod request key value
+ makeMethod path key value

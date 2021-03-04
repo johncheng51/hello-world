@@ -1,0 +1,23 @@
+ folder C:/angular2/my-app/src/app
+ set c app.module1 n1 TestData n2 WriterService n3 WriterComponent
+ makeClass module 
+
+ set c writerService1
+ doImport importm Book Writer Urls
+ makeClass service
+
+ set u Urls p0 MESSAGE
+ makeMethod textMsg 
+
+ set c writer
+ makeMethod writerWithFavBooks
+ makeMethod dataForUrl
+ makeMethod fullResponseForWriter
+
+ set c Book 
+ makeMethod books
+
+ set p0 category p1 year
+ makeMethod filterBooks
+
+ 

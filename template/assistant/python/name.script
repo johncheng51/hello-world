@@ -1,0 +1,5 @@
+ folder C:/myPython/chapter_07
+ setclass personName firstName middleName lastName
+ printblock func
+ setclass testName personName 
+ printblock testFunc

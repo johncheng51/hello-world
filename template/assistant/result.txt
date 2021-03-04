@@ -1,0 +1,100 @@
+646-753-9217. 11AM 06/19/2020
+john760warp0004pod
+cd /mnt/c/shellscript
+/usr/lib/jvm/java-8-openjdk-amd64
+ObjectMapper<Product> objectMapper = new ObjectMapper<>(Product.class);
+    List<Product> products = objectMapper.map(rows);
+
+List<Person> listPerson=myList.stream().map(x -> myMethod(x)).collect(Collectors.toList());
+List<Person> listPerson=myList.stream().map(x -> myMethod(x)).collect(Collectors.toList());
+Map<aaa, bbb> mapbbb = ccc.stream().collect(Collectors.toMap(bbb::getddd, x-> eee(x)));
+Map<Integer, Person> mapPerson = ccc.stream().collect(Collectors.toMap(Person::getddd, x-> eee(x)));
+List<Person> listPerson=myList.stream().map(x -> myMethod(x)).collect(Collectors.toList());
+List<Integer> listInteger=variable.stream().map(x -> method(x)).collect(Collectors.toList());
+List<Long> listLong=variable.stream().map(x -> method(x)).collect(Collectors.toList());
+Set<Long>   setLong=variable.stream().map(x -> variable(x)).collect(Collectors.toSet());
+List<Integer> listInteger=variable.stream().map(x -> method(x)).collect(Collectors.toList());
+/*JAVA_METHOD2*/
+
+
+
+
+List<Integer> listInteger=variable.stream().map(x -> method(x)).collect(Collectors.toList());
+/*JAVA_METHOD1*/
+
+Map<Integer, Person> mapPerson = variable.stream().filter(Customer::hasmethod).collect(Collectors.toMap(variable::getmethod1, x-> method2(x)));
+/*JAVA_METHOD3*/
+
+docker container run hello-world
+docker images
+docker rmi  -f  ubuntu
+docker rmi  -f  ubuntu
+docker rmi  -f  nginx
+docker rmi  -f  <none>
+docker images
+docker rmi  -f  variable
+/*DOCKER_METHOD*/
+
+self.variable=variable
+for variable in variables:               print(variable
+for user in users:  ###             print(user)
+          for user in users:
+          print(user)
+          for user in users:
+           print(user)
+          for user in users:
+           print(user)
+      for user in users:
+       print(user)
+"""PYTHON_METHOD"""
+    class Dog():
+    
+     def __init__(self, eat,catch):
+       self.eat=eat   
+       self.catch=catch   
+
+
+
+    class Dog():
+    
+     def __init__(self, eat,catch):
+       self.eat=eat   
+       self.catch=catch   
+
+
+
+    class Dog():
+     def __init__(self, eat,catch):
+       self.eat=eat   
+       self.catch=catch   
+
+
+
+     def Dog(self, eat,catch):
+
+
+     def createUser(self, createUser)   
+     def makePerson(self, makePerson)   
+
+
+
+     def createUser(self, "john")   
+     def makePerson(self, "jack")   
+
+
+
+     def createUser(self, user):   
+     def makePerson(self, person):   
+
+
+
+     def createUser(self, user):   
+     def makePerson(self, person):   
+     def makeCar(self, car):   
+
+
+          for user in users:
+           print(user)
+      for user in users:
+       print(user)
+"""PYTHON_METHOD"""

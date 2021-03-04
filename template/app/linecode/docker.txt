@@ -1,0 +1,15 @@
+<main>
+   dr=docker container run ${n}
+   di=docker images
+   rm= docker rmi  -f ${n}
+   rma=docker rmi -f  $(docker images -q)
+   rmc=docker rm  $(docker ps -aq)
+   gb=docker run -it  ${n} /bin/sh
+   stop=docker stop ${n}
+   en=docker exec -it ${n} /bin/sh
+   sa=docker commit ${n}  ${n1}
+</main>
+
+docker run -p 22:22 -d --name sftp-1 watersalesman/sftp-alpine
+ENV SSH_USER=sftp
+ENV SSH_PASS=DockerPassSFTP
